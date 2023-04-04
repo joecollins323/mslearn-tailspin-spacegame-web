@@ -4,9 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Text.Json;
-using TailSpin.SpaceGame.Web.Models;
+using SpaceGame.Web.Models;
 
-namespace TailSpin.SpaceGame.Web
+namespace SpaceGame.Web
 {
     public class LocalDocumentDBRepository<T> : IDocumentDBRepository<T> where T : Model
     {

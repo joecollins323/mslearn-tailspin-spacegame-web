@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TailSpin.SpaceGame.Web.Models;
+using SpaceGame.Web.Models;
 
-namespace TailSpin.SpaceGame.Web
+namespace SpaceGame.Web
 {
     public interface IDocumentDBRepository<T> where T : Model
     {
